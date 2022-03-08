@@ -1,0 +1,6 @@
+<launch>
+
+<node name="webcam" pkg="camera_feed" type="image_publish.py" output="screen" respawn="true"/>
+
+</launch>
+
